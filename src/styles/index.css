@@ -1,3 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --blue2: #1C74E5;
+  --blue: #155DBA;
 }
