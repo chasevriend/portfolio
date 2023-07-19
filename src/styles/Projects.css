@@ -1,0 +1,41 @@
+.projects {
+    margin-top: 10vh;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.projects__container {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .19);
+}
+
+.project__img {
+    background-color: hsla(0,0%,46%,.2);
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    height: auto;
+    overflow: hidden;
+    width: 53rem;
+}
+
+.project__content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    width: 30rem;
+}
