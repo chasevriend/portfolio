@@ -17,10 +17,10 @@ const Hero = () => {
                         based in Huntington Beach, CA. 🌊 ☀️
                     </p>
                     <Link to='/'>
-                        <LinkedInIcon className='hero__icon' />
+                        <LinkedInIcon fontSize='large' className='hero__icon' />
                     </Link>
                     <Link to='/'>
-                        <GitHubIcon className='hero__icon' />
+                        <GitHubIcon fontSize='large' className='hero__icon2' />
                     </Link>
                 </div>
                 <img src={HeroImg} alt='picture of Chase' className='hero__img' /> 
