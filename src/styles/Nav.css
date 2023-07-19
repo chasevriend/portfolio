@@ -55,7 +55,7 @@
 }
 
 .mobile-nav__close:hover {
-    color: #ff4d30;
+    color: var(--blue);
 }
 
 .mobile-nav__hamburger {
@@ -66,7 +66,7 @@
 }
 
 .mobile-nav__hamburgerIcon:hover {
-    color: #ff4d30;
+    color: var(--blue);
 }
 
 @media (max-width: 950px) {
@@ -90,13 +90,12 @@
     height: auto;
     justify-content: space-between;
     left: 0;
-    margin: 0 auto;
     max-width: 80rem;
-    padding: 10px 20px;
-    position: absolute;
+    padding: 20px;
     right: 0;
     top: 0;
-    z-index: 99999;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav__logo {
