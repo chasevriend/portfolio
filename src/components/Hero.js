@@ -11,10 +11,11 @@ const Hero = () => {
         <>
             <div className='hero'>
                 <div className='hero__content'>
-                    <h1>Front-End Developer</h1> 
+                    <h1>Hi <span>👋</span> I'm Chase</h1> 
                     <p>
-                        Hi, I'm Chase Vriend. I'm a passionate Front-End Developer 
-                        based in Huntington Beach, CA. 🌊 ☀️
+                        I'm a passionate Front-End Developer based in Huntington Beach, CA.
+                        I excel in design and developing responsive websites that offer a seamless 
+                        user experience. 
                     </p>
                     <Link to='/'>
                         <LinkedInIcon fontSize='large' className='hero__icon' />
