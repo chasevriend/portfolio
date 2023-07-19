@@ -87,15 +87,13 @@
     align-items: center;
     background-color: transparent;
     display: flex;
-    height: auto;
     justify-content: space-between;
-    left: 0;
     max-width: 80rem;
     padding: 20px;
-    right: 0;
-    top: 0;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .nav__logo {
@@ -120,11 +118,6 @@
 
 .nav__link:hover {
     color: var(--blue);
-}
-
-.nav__btn:hover {
-    box-shadow: 0 10px 15px 0 var(--blue);
-    color: white;
 }
 
 .nav__btn {

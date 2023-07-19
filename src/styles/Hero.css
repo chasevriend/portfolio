@@ -7,6 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    background-color: #f2f2f2;
 }
 
 .hero__img {
@@ -23,10 +24,15 @@
     max-width: 35rem;
 }
 
+.hero__content span {
+    display: flex;
+    align-items: center;
+}
+
 .hero__content h1 {
     color: #2d2e32;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .hero__content p {
@@ -61,4 +67,53 @@
         text-align: center;
         margin-top: 20px;
     }
+    .hero__content h1 {
+        text-align: center;
+    }
+}
+
+.stack {
+    margin-top: 5vh;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.stack h2 {
+    color: #2d2e32;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+}
+
+.stack__container {
+    display: flex;
+}
+
+.stack span h2 {
+    padding: 0 10px;
+}
+
+.stack__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+}
+
+.stack__lang {
+    width: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.stack__lang2 {
+    width: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
 }
