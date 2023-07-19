@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Hero.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import HeroImg from '../images/hero.png';
 
 const Hero = () => {
@@ -22,6 +23,9 @@ const Hero = () => {
                     </Link>
                     <Link to='/'>
                         <GitHubIcon fontSize='large' className='hero__icon2' />
+                    </Link>
+                    <Link to='/'>
+                        <TwitterIcon fontSize='large' className='hero__icon2' />
                     </Link>
                 </div>
                 <img src={HeroImg} alt='picture of Chase' className='hero__img' /> 

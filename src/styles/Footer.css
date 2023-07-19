@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 10vh;
+    width: 100%;
+    background-color: #2d2e32;
+}
+
+.footer__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px;
+}
+
+.footer__container h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.footer__icon {
+    color: white;
+    padding: 0 10px;
+}
+
+.footer__icon:hover {
+    color: var(--blue2);
+}

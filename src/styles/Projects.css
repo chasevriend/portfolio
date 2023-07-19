@@ -52,7 +52,8 @@
 
 .project__content p {
     font-size: 18px;
-    padding: 20px;
+    padding: 15px;
+    word-spacing: 1px;
 }
 
 .lang {
@@ -68,6 +69,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 10px;
 }
 
 .proj__links {
@@ -81,6 +83,10 @@
 .proj__links a {
     font-size: 20px;
     align-items: center;
+}
+
+.proj__links a:hover {
+    color: var(--blue2);
 }
 
 .proj__icon {
