@@ -62,11 +62,8 @@ const Nav = () => {
                         >
                             Projects
                         </Link>
-                        <Link 
-                            className="nav__btn" to="/" 
-                            onClick={() => window.scrollTo(0, 0)}
-                        >
-                            Contact
+                        <Link className="nav__btn" to='mailto: chasevriend84@gmail.com'>
+                                Contact
                         </Link>
                     </div>
 
