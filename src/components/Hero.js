@@ -14,7 +14,7 @@ const Hero = () => {
                     <h1>Hi <span>👋</span> I'm Chase</h1> 
                     <p>
                         I'm a passionate Front-End Developer based in Huntington Beach, CA.
-                        I excel in design and developing responsive websites that offer a seamless 
+                        I excel in design and development of responsive websites that offer a seamless 
                         user experience. 
                     </p>
                     <Link to='/'>

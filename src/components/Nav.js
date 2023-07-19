@@ -18,11 +18,6 @@ const Nav = () => {
                     </div>
                     <ul className="mobile-nav__links">
                         <li>
-                            <Link onClick={openNav} to="/">
-                                Home
-                            </Link>
-                        </li>
-                        <li>
                             <Link onClick={openNav} to="/about">
                                 About
                             </Link>
@@ -55,12 +50,6 @@ const Nav = () => {
                         </Link>
                     </div>
                     <div className="nav__links">
-                        <Link 
-                            className="nav__link" to="/" 
-                            onClick={() => window.scrollTo(0, 0)}
-                        >
-                            Home
-                        </Link>
                         <Link 
                             className="nav__link" 
                             to="/" onClick={() => window.scrollTo(0, 0)}
