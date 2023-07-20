@@ -68,34 +68,6 @@ const Projects = () => {
                         <img src={Crypto} alt='website' className='project__img' />
                     </Link>
                 </div>
-                <div className='project'>
-                    <div className='project__imgs'>
-                        <Link to='https://chasevriend.github.io/super-rental/' target='_blank'>
-                            <img src={Super} alt='website' className='project__img' />
-                        </Link>
-                    </div>
-                    <div className='project__content'>
-                        <h4>JavaLift 💪</h4>
-                        <p>
-                            A website designed and developed for an online fitness program. This website 
-                            provides an interface for tracking your fitness progress.
-                        </p>
-                        <span className='proj__stack'>
-                            <p className='lang'>React</p>
-                            <p className='lang'>CSS</p>
-                        </span>
-                        <span className='proj__links'>
-                            <Link to='https://chasevriend.github.io/javalift/' target='_blank'>
-                                Demo
-                                <LaunchIcon className='proj__icon' />
-                            </Link>
-                            <Link to='https://github.com/chasevriend/javalift' target='_blank'>
-                                Code
-                                <GitHubIcon className='proj__icon' />
-                            </Link>
-                        </span>
-                    </div>
-                </div>
             </div>
         </div>
     )
