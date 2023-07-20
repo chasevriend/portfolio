@@ -31,5 +31,6 @@
 @media(max-width: 850px) {
     .footer__container {
         flex-direction: column;
+        gap: 20px;
     }
 }

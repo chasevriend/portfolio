@@ -46,7 +46,7 @@
 }
 
 .project__img {
-    width: 30rem;
+    max-width: 30rem;
     border-radius: 20px;
 }
 
@@ -112,12 +112,24 @@
     .project {
         flex-wrap: wrap;
         justify-content: center;
+        max-width: 100%;
+        padding: 0;
     }
     .project2 {
         flex-wrap: wrap-reverse;
         justify-content: center;
+        max-width: 100%;
+        padding: 0;
     }
     .project__content {
         max-width: 35rem;
+    }
+    .project__img {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
     }
 }

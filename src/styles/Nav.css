@@ -89,6 +89,16 @@ nav {
     background-color: #fff;
 }
 
+.mobile__icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.mobile-nav__icon:hover {
+    color: var(--blue2);
+}
+
 .nav {
     align-items: center;
     background-color: transparent;

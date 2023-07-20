@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Nav.css"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -44,6 +48,17 @@ const Nav = () => {
                             </Link>
                         </li>
                     </ul>
+                    <span className="mobile__icons">
+                        <Link onClick={openNav} to='https://www.linkedin.com/in/chase-vriend-308a61240/' target='_blank'>
+                            <LinkedInIcon fontSize="large" className="mobile-nav__icon" />
+                        </Link>
+                        <Link onClick={openNav} to='https://github.com/chasevriend' target='_blank'>
+                            <GitHubIcon fontSize="large" className="mobile-nav__icon" />
+                        </Link>
+                        <Link onClick={openNav} to='https://twitter.com/chasevriend' target='_blank'>
+                            <TwitterIcon fontSize="large" className="mobile-nav__icon" />
+                        </Link>
+                    </span>
                 </div>
 
                 <div className="nav">

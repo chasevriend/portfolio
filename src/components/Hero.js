@@ -19,9 +19,6 @@ const Hero = () => {
                         I excel in design and development of responsive websites that offer a seamless 
                         user experience. 
                     </p>
-                    <Link to='mailto: chasevriend84@gmail.com' target='_blank'>
-                        <EmailIcon fontSize='large' className='hero__icon' />
-                    </Link>
                     <Link to='https://www.linkedin.com/in/chase-vriend-308a61240/' target='_blank'>
                         <LinkedInIcon fontSize='large' className='hero__icon2' />
                     </Link>
@@ -31,7 +28,6 @@ const Hero = () => {
                     <Link to='https://twitter.com/chasevriend' target='_blank'>
                         <TwitterIcon fontSize='large' className='hero__icon2' />
                     </Link>
-
                 </div>
                 <img src={HeroImg} alt='picture of Chase' className='hero__img' /> 
             </div>

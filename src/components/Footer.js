@@ -19,9 +19,6 @@ const Footer = () => {
             <div className='footer__container'>
                 <h2 onClick={footerBtn}>Chase Vriend</h2>
                 <div>
-                    <Link to='mailto: chasevriend84@gmail.com' target='_blank'>
-                        <EmailIcon fontSize='large' className='footer__icon' />
-                    </Link>
                     <Link to='https://www.linkedin.com/in/chase-vriend-308a61240/' target='_blank'>
                         <LinkedInIcon fontSize='large' className='footer__icon' />
                     </Link>
