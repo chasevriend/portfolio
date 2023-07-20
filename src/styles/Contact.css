@@ -3,7 +3,7 @@
     background-color: #fff;
     padding: 20px;
     margin-top: 10vh;
-    height: 25vh;
+    padding: 20px;
 }
 
 .contact__container {
@@ -16,6 +16,7 @@
 .contact__container h2 {
     font-size: 30px;
     padding: 20px 0;
+    color: #2d2e32;
 }
 
 .contact__content {
@@ -37,10 +38,12 @@
 .contact__content h4 {
     font-size: 20px;
     padding: 10px 0;
+    color: #2d2e32;
 }
 
 .contact__content p {
     font-size: 18px;
+    color: #555;
 }
 
 .contact__content p:hover {
@@ -52,4 +55,36 @@
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
     border-radius: 50%;
+}
+
+@media(max-width: 850px) {
+    .contact__container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact__content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact__content div {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 390px) {
+    .contact__container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact__content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact__content div {
+        justify-content: center;
+        flex-direction: column;
+    }
 }

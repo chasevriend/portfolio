@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div className='projects'>
-            <h2>Portfolio</h2>
+        <div className='projects' id='projects'>
+            <h2>My Projects</h2>
             <div className='projects__container'>
                 <div className='project'>
                     <div className='project__imgs'>
@@ -41,7 +41,7 @@ const Projects = () => {
                         </span>
                     </div>
                 </div>
-                <div className='project'>
+                <div className='project2'>
                     <div className='project__content'>
                         <h4>Crypto Casino 🪙</h4>
                         <p>

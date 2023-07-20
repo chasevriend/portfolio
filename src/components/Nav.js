@@ -8,9 +8,20 @@ const Nav = () => {
     const openNav = () => {
         setNav(!nav);
     }
+
+    const portfolioBtn = () => {
+        document
+        .querySelector("#projects")
+        .scrollIntoView({ behavior: "smooth" });
+    };
     
+    const openProjects = () => {
+        openNav();
+        portfolioBtn();
+    }
+
     return(
-        <>
+        <section id="nav">
             <nav>
                 <div className={`mobile-nav ${nav ? "open-nav" : ""}`}>
                     <div onClick={openNav} className="mobile-nav__close">
@@ -18,22 +29,17 @@ const Nav = () => {
                     </div>
                     <ul className="mobile-nav__links">
                         <li>
-                            <Link onClick={openNav} to="/about">
+                            <Link onClick={openNav} to="/">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={openNav} to="/models">
-                                Models
+                            <Link onClick={openProjects} to="/">
+                                Portfolio
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={openNav} to="/testimonials">
-                                Testimonials
-                            </Link>
-                        </li>
-                        <li>
-                            <Link onClick={openNav} to="/contact">
+                            <Link onClick={openNav} to="mailto: chasevriend84@gmail.com">
                                 Contact
                             </Link>
                         </li>
@@ -58,7 +64,7 @@ const Nav = () => {
                         </Link>
                         <Link 
                             className="nav__link" 
-                            to="/" onClick={() => window.scrollTo(0, 0)}
+                            to="/" onClick={portfolioBtn}
                         >
                             Projects
                         </Link>
@@ -76,7 +82,7 @@ const Nav = () => {
                     </div>
                 </div>
             </nav>
-        </>
+        </section>
     );
 }
 

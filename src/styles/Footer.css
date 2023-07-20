@@ -16,6 +16,7 @@
 .footer__container h2 {
     color: white;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .footer__icon {
@@ -25,4 +26,10 @@
 
 .footer__icon:hover {
     color: var(--blue2);
+}
+
+@media(max-width: 850px) {
+    .footer__container {
+        flex-direction: column;
+    }
 }
