@@ -20,7 +20,7 @@ const Hero = () => {
                         user experience. 
                     </p>
                     <Link to='https://www.linkedin.com/in/chase-vriend-308a61240/' target='_blank'>
-                        <LinkedInIcon fontSize='large' className='hero__icon2' />
+                        <LinkedInIcon fontSize='large' className='hero__icon' />
                     </Link>
                     <Link to='https://github.com/chasevriend' target='_blank'>
                         <GitHubIcon fontSize='large' className='hero__icon2' />
